@@ -76,3 +76,36 @@
 #sec::after{
     content: 'SEC';
 }
+
+/* Media Query for Screens with Width 400px or Less */
+@media (max-width: 500px) {
+    .container {
+        height: 100px;
+        width: 350px;
+    }
+
+    .clock span {
+        font-size: 12vw;
+    }
+
+    .clock span::after {
+        font-size: 3.5vw;
+        bottom: -8px;
+    }
+
+    .container::before,
+    .container::after {
+        width: 60px;
+        height: 60px;
+    }
+
+    .container::before {
+        left: -15px;
+        top: -15px;
+    }
+
+    .container::after {
+        right: -10px;
+        bottom: -15px;
+    }
+}
