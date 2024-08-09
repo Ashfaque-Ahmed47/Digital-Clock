@@ -81,7 +81,7 @@
 @media (max-width: 500px) {
     .container {
         height: 100px;
-        width: 350px;
+        width: 320px;
     }
 
     .clock span {
