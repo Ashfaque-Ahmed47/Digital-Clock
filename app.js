@@ -1,7 +1,9 @@
+//  selecting elements 
 let hrs = document.getElementById("hrs");
 let min = document.getElementById("min");
 let sec = document.getElementById("sec");
 
+// changing it dynamatically
 setInterval(()=>{
     let currentTime = new Date();
 
